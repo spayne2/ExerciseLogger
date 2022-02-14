@@ -362,7 +362,7 @@ public:
 			cout << "4. Edit Person" << endl;
 			cout << "5. Write to File" << endl;
 			cout << "6. Load from file" << endl;
-			cout << "7. Save a Quit" << endl;
+			cout << "7. Save & Quit" << endl;
 
 			int input;
 			cin >> input;
