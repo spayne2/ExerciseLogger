@@ -5,7 +5,7 @@
 using namespace std;
 const string FILENAME = "exercise_logger.txt";
 /**
-*ENUM for labelling records int the rext file
+*ENUM for labelling records int the text file
 */
 enum ExerciseType 
 {
