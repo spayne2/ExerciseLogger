@@ -8,7 +8,8 @@ enum ExerciseType //ENUM for labelling records int the rext file
 {
 	RUN,
 	WEIGHT_LIFTING,
-	HIKE
+	HIKE,
+	SWIMMING
 };
 //Abstract exercise class
 class Exericse 
@@ -74,6 +75,7 @@ public:
 		getline(file, terrain); //get the terrain (getline so it can have spaces)
 	}
 };
+
 class Hike :public Run
 {
 public:
@@ -131,6 +133,45 @@ public:
 		getline(file, type); //get the type
 	}
 };
+
+class Swimming : public Exericse
+{
+private:
+	int length;
+	int laps;
+	string stroke;
+	int calcTotalDistance()
+	{
+		return length * laps;
+	}
+public:
+	Swimming() { length = 0; laps = 0; stroke = ""; };
+	void addData()
+	{ //get data from user input
+		cout << "Type in length" << endl;
+		cin >> length;
+		cout << "Type in laps" << endl;
+		cin >> laps;
+		cout << "Type in stroke type" << endl;
+		cin.ignore(1000, '\n');
+		cin.clear();
+		getline(cin, stroke);
+	}
+	void display()
+	{
+		cout << "Swimming: Length: " << length << " meters, Laps: " << laps << " Stroke: " << stroke << " Total Distance: " << calcTotalDistance() << " meters" << endl;
+	}
+	string getDataForFile()
+	{				//record is labelled with the enum
+		return to_string(ExerciseType::SWIMMING) + " " + to_string(length) + " " + to_string(laps) + " " + stroke;
+	}
+	void loadDataFromFile(ifstream& file)
+	{
+		file >> length; //get the distance from the file
+		file >> laps; //get the minutes from the file
+		getline(file, stroke); //get the terrain (getline so it can have spaces)
+	}
+};
 //class to represent a person object
 class Person
 {
@@ -147,6 +188,7 @@ public:
 		cout << "1. Run " << endl;
 		cout << "2. Weight Lifting" << endl;
 		cout << "3. Hike" << endl;
+		cout << "4. Swim" << endl;
 		int userInput;
 		cin >> userInput;
 		if (userInput == 1)
@@ -169,6 +211,13 @@ public:
 			Hike* hike = new Hike; //initiliase
 			hike->addData(); //add data
 			exercises.push_back(hike); //add to the vector
+		}
+		else if (userInput == 4)
+		{
+			cout << "Add info of most recent Swim" << endl;
+			Swimming* swim = new Swimming; //initiliase
+			swim->addData(); //add data
+			exercises.push_back(swim); //add to the vector
 		}
 		
 	}
@@ -263,6 +312,13 @@ public:
 				Hike* hike = new Hike;
 				hike->loadDataFromFile(file); //call the load data from file for run
 				exercises.push_back(hike); //add the run to the vector
+				break;
+			}
+			case ExerciseType::SWIMMING:
+			{
+				Swimming* swim = new Swimming;
+				swim->loadDataFromFile(file); //call the load data from file for run
+				exercises.push_back(swim); //add the run to the vector
 				break;
 			}
 				
