@@ -4,14 +4,19 @@
 #include <fstream>
 using namespace std;
 const string FILENAME = "exercise_logger.txt";
-enum ExerciseType //ENUM for labelling records int the rext file
+/**
+*ENUM for labelling records int the rext file
+*/
+enum ExerciseType 
 {
 	RUN,
 	WEIGHT_LIFTING,
 	HIKE,
 	SWIMMING
 };
-//Abstract exercise class
+/**
+*Abstract exercise class
+*/
 class Exericse 
 {
 public:
@@ -19,7 +24,9 @@ public:
 	virtual string getDataForFile() = 0;
 	virtual void addData() = 0;
 };
-//run class to represent a run object.
+/**
+*Run class to represent a run object.
+*/
 class Run : public Exericse
 {
 protected:
@@ -27,10 +34,25 @@ protected:
 	int timeMins; // time in minutes 
 	int timeSeconds; //time in seconds
 	string terrain; //the terrain type of the run e.g. road, track, trail
+	/**
+	* function to caclculate the average pace of the run, to be called when the runs are displayed
+	*/ 
+	string calculateAvgPace()
+	{
+		int fullSeconds = (timeMins * 60) + timeSeconds;
 
+		int secondsPerKm = fullSeconds / distanceInKm;
+
+		double minutesPerKm = secondsPerKm / 60;
+		int leftOverSeconds = secondsPerKm % 60;
+
+		return to_string(minutesPerKm) + "'" + to_string(leftOverSeconds) + "\"";
+	}
 public:
 	Run() { distanceInKm = 0; timeMins = 0; timeSeconds = 0; terrain = ""; }
-	//function to ask user to add data to run, called from wherever a new run object is created
+	/**
+	*function to ask user to add data to run, called from wherever a new run object is created
+	*/
 	void addData()
 	{ //get data from user input
 		cout << "Type in distance" << endl;
@@ -44,29 +66,24 @@ public:
 		cin.clear();
 		getline(cin, terrain);
 	}
-	//function to caclculate the average pace of the run, to be called when the runs are displayed
-	string calculateAvgPace()
-	{
-		int fullSeconds = (timeMins * 60) + timeSeconds;
 
-		int secondsPerKm = fullSeconds / distanceInKm;
-
-		double minutesPerKm = secondsPerKm / 60;
-		int leftOverSeconds = secondsPerKm % 60;
-
-		return to_string(minutesPerKm) + "'" + to_string(leftOverSeconds) + "\"";
-	}
-	//function to display the run information
+	/**
+	* function to display the run information
+	*/
 	void display()
 	{
 		cout <<"Run: Disance: " << distanceInKm << "Kms, Time " << timeMins << "mm:" << timeSeconds << "ss, Pace: " << calculateAvgPace() << " Terain: " << terrain << endl;
 	}
-
+	/**
+	*getDataForFile formats the data for the file, makeing sure to start with the enum
+	*/
 	string getDataForFile()
 	{				//record is labelled with the enum
 		return to_string(ExerciseType::RUN) + " " + to_string(distanceInKm) + " " + to_string(timeMins) + " " + to_string(timeSeconds) + " " + terrain;
 	}
-
+	/**
+	* loadDataFromFile reads the data from the text file.	
+	*/
 	void loadDataFromFile(ifstream& file)
 	{
 		file >> distanceInKm; //get the distance from the file
@@ -80,10 +97,17 @@ class Hike :public Run
 {
 public:
 	Hike() :Run() {};
+	/**
+	*getDataForFile formats the data for the file, makeing sure to start with the enum
+	*/
 	string getDataForFile()
 	{				//record is labelled with the enum
 		return to_string(ExerciseType::HIKE) + " " + to_string(distanceInKm) + " " + to_string(timeMins) + " " + to_string(timeSeconds) + " " + terrain;
 	}
+
+	/**
+	* function to display the run information
+	*/
 	void display()
 	{
 		cout << "Hike: Disance: " << distanceInKm << "Kms, Time " << timeMins << "mm:" << timeSeconds << "ss, Pace: " << calculateAvgPace() << " Terain: " << terrain << endl;
@@ -98,13 +122,19 @@ private:
 	int sets; //number of sets
 	string type; //type of exericse
 
+	/**
+	* caclulateTotaWeight returns the total amount of weight that has been exercised with 
+	*/
 	float calculateTotalWeight() //cumalative total weight
 	{
 		return weight * (reps * sets);
 	}
 public:
 	Weightlifting() { weight = 0; reps = 0; sets = 0; type = ""; }; //default constructor
-	void addData() //function to allow user to type in information about the weightlifting
+	/**
+	*function to ask user to add data to weightlifting, called from wherever a new run object is created
+	*/
+	void addData()
 	{
 		cout << "Type in weight in KG's" << endl;
 		cin >> weight;
@@ -117,11 +147,17 @@ public:
 		cin.clear();
 		getline(cin, type);
 	}
-	void display() //function to display the weight lifting stats
+	/**
+	* function to display the weight lifting information
+	*/
+	void display()
 	{
 		cout << "WeightLifting: Weight: " << weight << " KG's reps: " << reps << " sets:" << sets << " Total Weight: " << calculateTotalWeight() << "KG's Type: " << type << endl;
 	}
-	string getDataForFile() //function to get the data in the file format ready to be written to the file
+	/**
+	*getDataForFile formats the data for the file, makeing sure to start with the enum
+	*/
+	string getDataForFile() 
 	{					//record is labelled with the enum
 		return to_string(ExerciseType::WEIGHT_LIFTING) + " " + to_string(weight) + " " + to_string(reps) + " " + to_string(sets) + " " + type;
 	}
@@ -140,12 +176,18 @@ private:
 	int length;
 	int laps;
 	string stroke;
+	/**
+	*calcTotalDistnace calculates the total distance that has been swam
+	*/
 	int calcTotalDistance()
 	{
 		return length * laps;
 	}
 public:
 	Swimming() { length = 0; laps = 0; stroke = ""; };
+	/**
+	*function to ask user to add data to weightlifting, called from wherever a new run object is created
+	*/
 	void addData()
 	{ //get data from user input
 		cout << "Type in length" << endl;
@@ -157,14 +199,23 @@ public:
 		cin.clear();
 		getline(cin, stroke);
 	}
+	/**
+	* function to display the run information
+	*/
 	void display()
 	{
 		cout << "Swimming: Length: " << length << " meters, Laps: " << laps << " Stroke: " << stroke << " Total Distance: " << calcTotalDistance() << " meters" << endl;
 	}
+	/**
+	*getDataForFile formats the data for the file, makeing sure to start with the enum
+	*/
 	string getDataForFile()
 	{				//record is labelled with the enum
 		return to_string(ExerciseType::SWIMMING) + " " + to_string(length) + " " + to_string(laps) + " " + stroke;
 	}
+	/**
+	* loadDataFromFile loads all the swim data from the file
+	*/
 	void loadDataFromFile(ifstream& file)
 	{
 		file >> length; //get the distance from the file
@@ -181,8 +232,10 @@ private:
 	vector<Exericse*> exercises; //store a list of exercises; //composition
 public:
 	Person() { age = 0; }
-
-	void addExercise() //function to add exercises for a user
+	/**
+	* function to add exercises for a user
+	*/
+	void addExercise() 
 	{
 		cout << "What type of exercise ?" << endl;
 		cout << "1. Run " << endl;
@@ -221,8 +274,10 @@ public:
 		}
 		
 	}
-
-	void addData() //function to add data from the user to the person object
+	/**
+	*function to add data from the user to the person object
+	*/
+	void addData() 
 	{
 		cout << "Type in persons name" << endl;
 		cin.ignore(1000, '\n');
@@ -232,22 +287,30 @@ public:
 		cin >> age;
 		addExercise();
 	}
-	//function to return the name of the person
+	/**
+	* function to return the name of the person
+	*/
 	string getName()
 	{
 		return name;
 	}
-	//function to return the age of the person
+	/**
+	* function to return the age of the person
+	*/
 	int getAge()
 	{
 		return age;
 	}
-	//function to return the exercises that the person has stored
+	/**
+	* function to return the exercises that the person has stored
+	*/
 	vector<Exericse*> getExercises()
 	{
 		return exercises;
 	}
-	//function to print the ecercises to the console;
+	/**
+	* function to print the ecercises to the console;
+	*/	
 	void printExercises()
 	{
 		for (int i = 0; i < exercises.size(); i++)
@@ -257,14 +320,18 @@ public:
 		}
 		cout << endl;
 	}
-	//display function to show all user infor
+	/**
+	* display function to show all user info
+	*/
 	void display()
 	{
 		cout << "Name: " << name << " Age: " << age << endl;
 		cout << "Exercises: " << endl;
 		printExercises();
 	}
-	//edit function to edit the users info
+	/**
+	*edit function to edit the users info
+	*/
 	void edit()
 	{
 		cout << "Type in new name" << endl;
@@ -275,7 +342,9 @@ public:
 		cout << "Type in new age" << endl;
 		cin >> age;
 	}
-
+	/**
+	* loadDataFrom file, loads all the data from the file, and switched between exercise types
+	*/
 	void loadDataFromFile(ifstream& file)
 	{
 		getline(file, name); //get the name, allows for spaces
@@ -331,13 +400,17 @@ public:
 	}
 };
 
-//Menu class, controls the program running, holds a vector of persons
+/**
+* Menu class, controls the program running, holds a vector of persons
+*/
 class Menu
 {
 private:
 	vector<Person> persons; //vector to hold all the persons // composition (sort of)
 	bool keepMenuGoing = true;
-	//function to print person record
+	/**
+	* function to print person record
+	*/
 	void printPersonVector()
 	{
 		for (int i = 0; i < persons.size(); i++)
@@ -345,7 +418,9 @@ private:
 			cout << (i + 1) << " " << persons[i].getName() << endl;
 		}
 	}
-	//function to add a new person
+	/**
+	* function to add a new person
+	*/
 	void addNewPerson()
 	{
 		Person person; //initialize a person object
@@ -353,7 +428,9 @@ private:
 		persons.push_back(person); // add to the vector stored in the menu object
 	}
 
-	//function to add a new run for a user, called from the main menu
+	/**
+	* function to add a new run for a user, called from the main menu
+	*/
 	void addNewExercise()
 	{
 		cout << "Add exercise for which person?" << endl;
@@ -366,7 +443,9 @@ private:
 		persons[input - 1].addExercise();
 	}
 
-	//function to show person, called from the main menu
+	/**
+	* function to show person, called from the main menu
+	*/
 	void showPerson() {
 		cout << "Display which person" << endl;
 
@@ -377,7 +456,9 @@ private:
 
 		persons[input - 1].display();
 	}
-	//function to edit person, called from the main menu
+	/**
+	* function to edit person, called from the main menu
+	*/
 	void editPerson() {
 		cout << "Edit which person" << endl;
 
@@ -388,7 +469,9 @@ private:
 
 		persons[input - 1].edit();
 	}
-	//function for writing all the info to a file
+	/**
+	* function for writing all the info to a file
+	*/
 	void writeToFile()
 	{
 		ofstream outPutFile; //create output file objec
@@ -405,7 +488,9 @@ private:
 			}
 		}
 	}
-
+	/**
+	* function for loading all the info from a file
+	*/
 	void loadFromFile()
 	{
 		ifstream inputFile;
@@ -433,7 +518,9 @@ private:
 	}
 
 public:
-	//function to display the start menu
+	/**
+	*function to display the start menu
+	*/
 	void start()
 	{
 		loadFromFile();
