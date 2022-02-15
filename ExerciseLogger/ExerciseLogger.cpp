@@ -7,7 +7,8 @@ const string FILENAME = "exercise_logger.txt";
 enum ExerciseType //ENUM for labelling records int the rext file
 {
 	RUN,
-	WEIGHT_LIFTING
+	WEIGHT_LIFTING,
+	HIKE
 };
 //Abstract exercise class
 class Exericse 
@@ -20,7 +21,7 @@ public:
 //run class to represent a run object.
 class Run : public Exericse
 {
-private:
+protected:
 	double distanceInKm; //overall distnace of the run
 	int timeMins; // time in minutes 
 	int timeSeconds; //time in seconds
@@ -73,7 +74,20 @@ public:
 		getline(file, terrain); //get the terrain (getline so it can have spaces)
 	}
 };
+class Hike :public Run
+{
+public:
+	Hike() :Run() {};
+	string getDataForFile()
+	{				//record is labelled with the enum
+		return to_string(ExerciseType::HIKE) + " " + to_string(distanceInKm) + " " + to_string(timeMins) + " " + to_string(timeSeconds) + " " + terrain;
+	}
+	void display()
+	{
+		cout << "Hike: Disance: " << distanceInKm << "Kms, Time " << timeMins << "mm:" << timeSeconds << "ss, Pace: " << calculateAvgPace() << " Terain: " << terrain << endl;
+	}
 
+};
 class Weightlifting : public Exericse
 {
 private:
@@ -132,6 +146,7 @@ public:
 		cout << "What type of exercise ?" << endl;
 		cout << "1. Run " << endl;
 		cout << "2. Weight Lifting" << endl;
+		cout << "3. Hike" << endl;
 		int userInput;
 		cin >> userInput;
 		if (userInput == 1)
@@ -147,6 +162,13 @@ public:
 			Weightlifting* wl = new Weightlifting; //initiliase
 			wl->addData(); //add data
 			exercises.push_back(wl); //add to the vector
+		}
+		else if (userInput == 3)
+		{
+			cout << "Add info of most recent Hike" << endl;
+			Hike* hike = new Hike; //initiliase
+			hike->addData(); //add data
+			exercises.push_back(hike); //add to the vector
 		}
 		
 	}
@@ -234,6 +256,13 @@ public:
 				Weightlifting* wl = new Weightlifting;
 				wl->loadDataFromFile(file); //call the load data from file for run
 				exercises.push_back(wl); //add the run to the vector
+				break;
+			}
+			case ExerciseType::HIKE:
+			{
+				Hike* hike = new Hike;
+				hike->loadDataFromFile(file); //call the load data from file for run
+				exercises.push_back(hike); //add the run to the vector
 				break;
 			}
 				
