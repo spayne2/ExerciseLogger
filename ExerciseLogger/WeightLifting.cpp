@@ -1,6 +1,6 @@
 #include "WeightLifting.h"
 
-float Weightlifting::calculateTotalWeight() //cumalative total weight
+int Weightlifting::calculateTotalWeight() //cumalative total weight
 {
 	return weight * (reps * sets);
 }

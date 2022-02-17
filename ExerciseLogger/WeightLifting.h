@@ -12,7 +12,7 @@ private:
 	/**
 	* caclulateTotaWeight returns the total amount of weight that has been exercised with
 	*/
-	float calculateTotalWeight();
+	int calculateTotalWeight();
 public:
 	/**
 	* Default constructor for weightlifting
