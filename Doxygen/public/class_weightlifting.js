@@ -2,7 +2,7 @@ var class_weightlifting =
 [
     [ "Weightlifting", "class_weightlifting.html#aff1cf817def1ff67e091c9ab5aa619a0", null ],
     [ "addData", "class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322", null ],
-    [ "calculateTotalWeight", "class_weightlifting.html#a0b55487d8cc66d42fc07cf0a74227f77", null ],
+    [ "calculateTotalWeight", "class_weightlifting.html#ac08a7197c4a7fe72b927c76c391a1042", null ],
     [ "display", "class_weightlifting.html#ae598c6c7a86133e196887a59551be0bf", null ],
     [ "getDataForFile", "class_weightlifting.html#ae0edf9fc665b221a50601e1f47156e03", null ],
     [ "loadDataFromFile", "class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4", null ],
