@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "Exericse", "class_exericse.html", [
+    [ "Exercise", "class_exercise.html", [
       [ "Run", "class_run.html", [
         [ "Hike", "class_hike.html", null ]
       ] ],

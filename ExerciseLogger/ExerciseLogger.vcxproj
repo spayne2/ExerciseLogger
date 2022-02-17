@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="ExerciseLogger.cpp" />
+    <ClCompile Include="Hike.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Run.cpp" />
+    <ClCompile Include="Swimming.cpp" />
+    <ClCompile Include="WeightLifting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exercise.h" />
+    <ClInclude Include="Hike.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Run.h" />
+    <ClInclude Include="Swimming.h" />
+    <ClInclude Include="WeightLifting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

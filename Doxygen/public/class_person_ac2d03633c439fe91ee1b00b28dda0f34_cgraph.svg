@@ -51,24 +51,24 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="304,-40.5 304,-61.5 436,-61.5 436,-40.5 304,-40.5"/>
-<text text-anchor="middle" x="370" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
+<g id="a_node4"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="308.5,-40.5 308.5,-61.5 431.5,-61.5 431.5,-40.5 308.5,-40.5"/>
+<text text-anchor="middle" x="370" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M268.09,-51C276.49,-51 285.19,-51 293.8,-51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="293.83,-54.5 303.83,-51 293.83,-47.5 293.83,-54.5"/>
+<path fill="none" stroke="midnightblue" d="M268.09,-51C277.9,-51 288.12,-51 298.12,-51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="298.43,-54.5 308.43,-51 298.43,-47.5 298.43,-54.5"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="308.5,-0.5 308.5,-21.5 431.5,-21.5 431.5,-0.5 308.5,-0.5"/>
-<text text-anchor="middle" x="370" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
+<g id="a_node5"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="304,-0.5 304,-21.5 436,-21.5 436,-0.5 304,-0.5"/>
+<text text-anchor="middle" x="370" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
 </a>
 </g>
 </g>

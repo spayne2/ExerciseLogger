@@ -247,24 +247,24 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="773,-152.08 773,-173.08 905,-173.08 905,-152.08 773,-152.08"/>
-<text text-anchor="middle" x="839" y="-159.48" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
+<g id="a_node9"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="777.5,-152.08 777.5,-173.08 900.5,-173.08 900.5,-152.08 777.5,-152.08"/>
+<text text-anchor="middle" x="839" y="-159.48" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M709.01,-162.58C726.04,-162.58 744.69,-162.58 762.39,-162.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="762.69,-166.08 772.69,-162.58 762.68,-159.08 762.69,-166.08"/>
+<path fill="none" stroke="midnightblue" d="M709.01,-162.58C727.57,-162.58 748.06,-162.58 767.14,-162.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="767.28,-166.08 777.28,-162.58 767.28,-159.08 767.28,-166.08"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="777.5,-112.08 777.5,-133.08 900.5,-133.08 900.5,-112.08 777.5,-112.08"/>
-<text text-anchor="middle" x="839" y="-119.48" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
+<g id="a_node10"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="773,-112.08 773,-133.08 905,-133.08 905,-112.08 773,-112.08"/>
+<text text-anchor="middle" x="839" y="-119.48" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
 </a>
 </g>
 </g>
@@ -313,24 +313,24 @@ var sectionId = 'dynsection-1';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="555,-72.08 555,-93.08 737,-93.08 737,-72.08 555,-72.08"/>
-<text text-anchor="middle" x="646" y="-79.48" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::loadDataFromFile</text>
+<g id="a_node15"><a xlink:href="class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="559.5,-72.08 559.5,-93.08 732.5,-93.08 732.5,-72.08 559.5,-72.08"/>
+<text text-anchor="middle" x="646" y="-79.48" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::loadDataFromFile</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node15 -->
 <g id="edge15" class="edge">
 <title>Node13&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M519.06,-82.58C527.43,-82.58 536.04,-82.58 544.64,-82.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="544.72,-86.08 554.72,-82.58 544.72,-79.08 544.72,-86.08"/>
+<path fill="none" stroke="midnightblue" d="M519.06,-82.58C528.88,-82.58 539.04,-82.58 549.13,-82.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="549.18,-86.08 559.18,-82.58 549.18,-79.08 549.18,-86.08"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="559.5,-32.08 559.5,-53.08 732.5,-53.08 732.5,-32.08 559.5,-32.08"/>
-<text text-anchor="middle" x="646" y="-39.48" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::loadDataFromFile</text>
+<g id="a_node16"><a xlink:href="class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="555,-32.08 555,-53.08 737,-53.08 737,-32.08 555,-32.08"/>
+<text text-anchor="middle" x="646" y="-39.48" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::loadDataFromFile</text>
 </a>
 </g>
 </g>

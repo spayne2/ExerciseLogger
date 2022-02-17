@@ -33,9 +33,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_exericse.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_exercise.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-204.5 0,-306.5 151,-306.5 151,-204.5 0,-204.5"/>
-<text text-anchor="middle" x="75.5" y="-292.9" font-family="Helvetica,sans-Serif" font-size="12.00">Exericse</text>
+<text text-anchor="middle" x="75.5" y="-292.9" font-family="Helvetica,sans-Serif" font-size="12.00">Exercise</text>
 <polyline fill="none" stroke="black" points="0,-285.5 151,-285.5 "/>
 <text text-anchor="middle" x="75.5" y="-271.9" font-family="Helvetica,sans-Serif" font-size="12.00"> </text>
 <polyline fill="none" stroke="black" points="0,-264.5 151,-264.5 "/>
