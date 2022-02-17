@@ -50,7 +50,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_exercise_logger_8cpp.html"
+"_exercise_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -51,24 +51,24 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="348,-40.5 348,-61.5 530,-61.5 530,-40.5 348,-40.5"/>
-<text text-anchor="middle" x="439" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::loadDataFromFile</text>
+<g id="a_node4"><a xlink:href="class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="352.5,-40.5 352.5,-61.5 525.5,-61.5 525.5,-40.5 352.5,-40.5"/>
+<text text-anchor="middle" x="439" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::loadDataFromFile</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M312.06,-51C320.43,-51 329.04,-51 337.64,-51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="337.72,-54.5 347.72,-51 337.72,-47.5 337.72,-54.5"/>
+<path fill="none" stroke="midnightblue" d="M312.06,-51C321.88,-51 332.04,-51 342.13,-51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="342.18,-54.5 352.18,-51 342.18,-47.5 342.18,-54.5"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="352.5,-0.5 352.5,-21.5 525.5,-21.5 525.5,-0.5 352.5,-0.5"/>
-<text text-anchor="middle" x="439" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::loadDataFromFile</text>
+<g id="a_node5"><a xlink:href="class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="348,-0.5 348,-21.5 530,-21.5 530,-0.5 348,-0.5"/>
+<text text-anchor="middle" x="439" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::loadDataFromFile</text>
 </a>
 </g>
 </g>

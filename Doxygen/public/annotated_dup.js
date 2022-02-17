@@ -1,6 +1,6 @@
 var annotated_dup =
 [
-    [ "Exericse", "class_exericse.html", "class_exericse" ],
+    [ "Exercise", "class_exercise.html", "class_exercise" ],
     [ "Hike", "class_hike.html", "class_hike" ],
     [ "Menu", "class_menu.html", "class_menu" ],
     [ "Person", "class_person.html", "class_person" ],

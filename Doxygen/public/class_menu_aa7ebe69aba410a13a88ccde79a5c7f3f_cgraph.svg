@@ -112,24 +112,24 @@ var sectionId = 'dynsection-3';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="472,-40.5 472,-61.5 604,-61.5 604,-40.5 472,-40.5"/>
-<text text-anchor="middle" x="538" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
+<g id="a_node5"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="476.5,-40.5 476.5,-61.5 599.5,-61.5 599.5,-40.5 476.5,-40.5"/>
+<text text-anchor="middle" x="538" y="-47.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M436.09,-51C444.49,-51 453.19,-51 461.8,-51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="461.83,-54.5 471.83,-51 461.83,-47.5 461.83,-54.5"/>
+<path fill="none" stroke="midnightblue" d="M436.09,-51C445.9,-51 456.12,-51 466.12,-51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="466.43,-54.5 476.43,-51 466.43,-47.5 466.43,-54.5"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="476.5,-0.5 476.5,-21.5 599.5,-21.5 599.5,-0.5 476.5,-0.5"/>
-<text text-anchor="middle" x="538" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Swimming::addData</text>
+<g id="a_node6"><a xlink:href="class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="472,-0.5 472,-21.5 604,-21.5 604,-0.5 472,-0.5"/>
+<text text-anchor="middle" x="538" y="-7.9" font-family="Helvetica,sans-Serif" font-size="12.00">Weightlifting::addData</text>
 </a>
 </g>
 </g>
