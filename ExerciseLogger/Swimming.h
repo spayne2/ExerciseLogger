@@ -16,7 +16,7 @@ public:
 	*/
 	Swimming() { length = 0; laps = 0; stroke = ""; };
 	/**
-	*function to ask user to add data to weightlifting, called from wherever a new run object is created
+	*function to ask user to add data to swimming, called from wherever a new swim object is created
 	*/
 	void addData();
 	/**

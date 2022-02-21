@@ -5,7 +5,7 @@ int Swimming::calcTotalDistance()
 }
 
 /**
-	*function to ask user to add data to weightlifting, called from wherever a new run object is created
+	*function to ask user to add data to swim, called from wherever a new swim object is created
 	*/
 void Swimming::addData()
 { //get data from user input
