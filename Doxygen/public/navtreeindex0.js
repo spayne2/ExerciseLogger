@@ -39,6 +39,7 @@ var NAVTREEINDEX0 =
 "_weight_lifting_8h_source.html":[1,0,0,14],
 "annotated.html":[0,0],
 "class_exercise.html":[0,0,0],
+"class_exercise.html#a4c93cb04adc74a4a3a80c0332532f35d":[0,0,0,3],
 "class_exercise.html#a72accd8918b75ae85a4d64c5a1ca4240":[0,0,0,0],
 "class_exercise.html#abd2e913a8a9218dbb4f6fcf0e18eb0a8":[0,0,0,1],
 "class_exercise.html#ad95cb73a5a07b7e57adce3837d3f8e24":[0,0,0,2],

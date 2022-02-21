@@ -95,13 +95,13 @@ $(document).ready(function(){initNavTree('class_weightlifting.html',''); initRes
 <div class="dynheader">
 Inheritance diagram for Weightlifting:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting__inherit__graph.svg" width="216" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting__inherit__graph.svg" width="224" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Weightlifting:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting__coll__graph.svg" width="216" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting__coll__graph.svg" width="224" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad95cb73a5a07b7e57adce3837d3f8e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72accd8918b75ae85a4d64c5a1ca4240"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_exercise.html#a72accd8918b75ae85a4d64c5a1ca4240">addData</a> ()=0</td></tr>
 <tr class="separator:a72accd8918b75ae85a4d64c5a1ca4240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c93cb04adc74a4a3a80c0332532f35d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_exercise.html#a4c93cb04adc74a4a3a80c0332532f35d">loadDataFromFile</a> (ifstream &amp;)=0</td></tr>
+<tr class="separator:a4c93cb04adc74a4a3a80c0332532f35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -202,23 +204,23 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >function to ask user to add data to weightlifting, called from wherever a new run object is created </p>
+<p >function to ask user to add data to weightlifting, called from wherever a new weightlifting object is created </p>
 
 <p>Implements <a class="el" href="class_exercise.html#a72accd8918b75ae85a4d64c5a1ca4240">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00008">8</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    9</span>{</div>
-<div class="line"><span class="lineno">   10</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in weight in KG&#39;s&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   11</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>;</div>
-<div class="line"><span class="lineno">   12</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in reps&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   13</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>;</div>
-<div class="line"><span class="lineno">   14</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in sets&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   15</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>;</div>
-<div class="line"><span class="lineno">   16</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in type&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   17</span>    cin.ignore(1000, <span class="charliteral">&#39;\n&#39;</span>);</div>
-<div class="line"><span class="lineno">   18</span>    cin.clear();</div>
-<div class="line"><span class="lineno">   19</span>    getline(cin, <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>);</div>
-<div class="line"><span class="lineno">   20</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00012">12</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   13</span>{</div>
+<div class="line"><span class="lineno">   14</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in weight in KG&#39;s&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   15</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>;</div>
+<div class="line"><span class="lineno">   16</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in reps&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   17</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>;</div>
+<div class="line"><span class="lineno">   18</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in sets&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   19</span>    cin &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>;</div>
+<div class="line"><span class="lineno">   20</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in type&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   21</span>    cin.ignore(1000, <span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><span class="lineno">   22</span>    cin.clear();</div>
+<div class="line"><span class="lineno">   23</span>    getline(cin, <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>);</div>
+<div class="line"><span class="lineno">   24</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, <a class="el" href="_weight_lifting_8h_source.html#l00010">type</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>.</p>
 
@@ -253,21 +255,21 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >caclulateTotaWeight returns the total amount of weight that has been exercised with </p>
+<p >caclulateTotaWeight returns the total amount of weight that has been exercised with</p>
+<p >Function to calculate the total weight for the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00003">3</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    4</span>{</div>
-<div class="line"><span class="lineno">    5</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a> * (<a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a> * <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>);</div>
-<div class="line"><span class="lineno">    6</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00005">5</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a> * (<a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a> * <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>);</div>
+<div class="line"><span class="lineno">    8</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00024">display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00028">display()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting_ac08a7197c4a7fe72b927c76c391a1042_icgraph.svg" width="399" height="58"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting_ac08a7197c4a7fe72b927c76c391a1042_icgraph.svg" width="399" height="58"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -298,18 +300,17 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="class_exercise.html#abd2e913a8a9218dbb4f6fcf0e18eb0a8">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00024">24</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    cout &lt;&lt; <span class="stringliteral">&quot;WeightLifting: Weight: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a> &lt;&lt; <span class="stringliteral">&quot; KG&#39;s reps: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a> &lt;&lt; <span class="stringliteral">&quot; sets:&quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a> &lt;&lt; <span class="stringliteral">&quot; Total Weight: &quot;</span> &lt;&lt; <a class="code hl_function" href="class_weightlifting.html#ac08a7197c4a7fe72b927c76c391a1042">calculateTotalWeight</a>() &lt;&lt; <span class="stringliteral">&quot;KG&#39;s Type: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   27</span>}</div>
-<div class="ttc" id="aclass_weightlifting_html_ac08a7197c4a7fe72b927c76c391a1042"><div class="ttname"><a href="class_weightlifting.html#ac08a7197c4a7fe72b927c76c391a1042">Weightlifting::calculateTotalWeight</a></div><div class="ttdeci">int calculateTotalWeight()</div><div class="ttdef"><b>Definition:</b> <a href="_weight_lifting_8cpp_source.html#l00003">WeightLifting.cpp:3</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00028">28</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    cout &lt;&lt; <span class="stringliteral">&quot;WeightLifting: Weight: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a> &lt;&lt; <span class="stringliteral">&quot; KG&#39;s reps: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a> &lt;&lt; <span class="stringliteral">&quot; sets:&quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a> &lt;&lt; <span class="stringliteral">&quot; Total Weight: &quot;</span> &lt;&lt; <a class="code hl_function" href="class_weightlifting.html#ac08a7197c4a7fe72b927c76c391a1042">calculateTotalWeight</a>() &lt;&lt; <span class="stringliteral">&quot;KG&#39;s Type: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+<div class="ttc" id="aclass_weightlifting_html_ac08a7197c4a7fe72b927c76c391a1042"><div class="ttname"><a href="class_weightlifting.html#ac08a7197c4a7fe72b927c76c391a1042">Weightlifting::calculateTotalWeight</a></div><div class="ttdeci">int calculateTotalWeight()</div><div class="ttdef"><b>Definition:</b> <a href="_weight_lifting_8cpp_source.html#l00005">WeightLifting.cpp:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_weight_lifting_8cpp_source.html#l00003">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, <a class="el" href="_weight_lifting_8h_source.html#l00010">type</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>.</p>
+<p class="reference">References <a class="el" href="_weight_lifting_8cpp_source.html#l00005">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, <a class="el" href="_weight_lifting_8h_source.html#l00010">type</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting_ae598c6c7a86133e196887a59551be0bf_cgraph.svg" width="399" height="58"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_weightlifting_ae598c6c7a86133e196887a59551be0bf_cgraph.svg" width="399" height="58"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -340,10 +341,10 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="class_exercise.html#ad95cb73a5a07b7e57adce3837d3f8e24">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00031">31</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{                   <span class="comment">//record is labelled with the enum</span></div>
-<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> to_string(<a class="code hl_enumvalue" href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea2c0237cef358805b8a33367c5c6fd572">ExerciseType::WEIGHT_LIFTING</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>) + <span class="stringliteral">&quot; &quot;</span> + <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>;</div>
-<div class="line"><span class="lineno">   34</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00035">35</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{                   <span class="comment">//record is labelled with the enum</span></div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">return</span> to_string(<a class="code hl_enumvalue" href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea2c0237cef358805b8a33367c5c6fd572">ExerciseType::WEIGHT_LIFTING</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>) + <span class="stringliteral">&quot; &quot;</span> + <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>;</div>
+<div class="line"><span class="lineno">   38</span>}</div>
 <div class="ttc" id="a_exercise_8h_html_af1aa7cfdc8e091a94d56af2ac04d8e2ea2c0237cef358805b8a33367c5c6fd572"><div class="ttname"><a href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea2c0237cef358805b8a33367c5c6fd572">WEIGHT_LIFTING</a></div><div class="ttdeci">@ WEIGHT_LIFTING</div><div class="ttdef"><b>Definition:</b> <a href="_exercise_8h_source.html#l00014">Exercise.h:14</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, <a class="el" href="_weight_lifting_8h_source.html#l00010">type</a>, <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>, and <a class="el" href="_exercise_8h_source.html#l00014">WEIGHT_LIFTING</a>.</p>
@@ -355,6 +356,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Weightlifting::loadDataFromFile </td>
@@ -364,16 +368,23 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p >Loads all the weightlifting data from the file </p>
 
-<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00038">38</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
-<div class="line"><span class="lineno">   40</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>; <span class="comment">//get the weight from the file</span></div>
-<div class="line"><span class="lineno">   41</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>; <span class="comment">//get the reps from the file</span></div>
-<div class="line"><span class="lineno">   42</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>; <span class="comment">//get the sets from the file</span></div>
-<div class="line"><span class="lineno">   43</span>    getline(file, <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>); <span class="comment">//get the type</span></div>
-<div class="line"><span class="lineno">   44</span>}</div>
+<p>Implements <a class="el" href="class_exercise.html#a4c93cb04adc74a4a3a80c0332532f35d">Exercise</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_weight_lifting_8cpp_source.html#l00042">42</a> of file <a class="el" href="_weight_lifting_8cpp_source.html">WeightLifting.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#ac65752bb32fe774e6fdae75c20fd8dd2">weight</a>; <span class="comment">//get the weight from the file</span></div>
+<div class="line"><span class="lineno">   45</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#adf0a12768bbe9d199de14071300500ce">reps</a>; <span class="comment">//get the reps from the file</span></div>
+<div class="line"><span class="lineno">   46</span>    file &gt;&gt; <a class="code hl_variable" href="class_weightlifting.html#a1e95a06e5db4226a1c83c47376aafbfb">sets</a>; <span class="comment">//get the sets from the file</span></div>
+<div class="line"><span class="lineno">   47</span>    getline(file, <a class="code hl_variable" href="class_weightlifting.html#aa2a8a5d45989b3d7b04d6fa22c960c62">type</a>); <span class="comment">//get the type</span></div>
+<div class="line"><span class="lineno">   48</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_weight_lifting_8h_source.html#l00008">reps</a>, <a class="el" href="_weight_lifting_8h_source.html#l00009">sets</a>, <a class="el" href="_weight_lifting_8h_source.html#l00010">type</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00007">weight</a>.</p>
 
@@ -409,7 +420,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_weight_lifting_8h_source.html#l00008">8</a> of file <a class="el" href="_weight_lifting_8h_source.html">WeightLifting.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00008">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00003">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00024">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00031">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00038">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00012">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00005">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00028">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00035">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00042">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
 
 </div>
 </div>
@@ -435,7 +446,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_weight_lifting_8h_source.html#l00009">9</a> of file <a class="el" href="_weight_lifting_8h_source.html">WeightLifting.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00008">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00003">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00024">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00031">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00038">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00012">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00005">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00028">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00035">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00042">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
 
 </div>
 </div>
@@ -461,7 +472,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_weight_lifting_8h_source.html#l00010">10</a> of file <a class="el" href="_weight_lifting_8h_source.html">WeightLifting.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00008">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00024">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00031">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00038">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00012">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00028">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00035">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00042">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
 
 </div>
 </div>
@@ -487,7 +498,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_weight_lifting_8h_source.html#l00007">7</a> of file <a class="el" href="_weight_lifting_8h_source.html">WeightLifting.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00008">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00003">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00024">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00031">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00038">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_weight_lifting_8cpp_source.html#l00012">addData()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00005">calculateTotalWeight()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00028">display()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00035">getDataForFile()</a>, <a class="el" href="_weight_lifting_8cpp_source.html#l00042">loadDataFromFile()</a>, and <a class="el" href="_weight_lifting_8h_source.html#l00020">Weightlifting()</a>.</p>
 
 </div>
 </div>

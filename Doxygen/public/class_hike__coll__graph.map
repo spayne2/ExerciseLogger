@@ -1,5 +1,5 @@
 <map id="Hike" name="Hike">
-<area shape="rect" id="node1" title=" " alt="" coords="15,480,208,600"/>
-<area shape="rect" id="node2" href="$class_run.html" title=" " alt="" coords="5,191,217,432"/>
-<area shape="rect" id="node3" href="$class_exercise.html" title=" " alt="" coords="11,5,212,143"/>
+<area shape="rect" id="node1" title=" " alt="" coords="15,515,209,635"/>
+<area shape="rect" id="node2" href="$class_run.html" title=" " alt="" coords="6,225,218,467"/>
+<area shape="rect" id="node3" href="$class_exercise.html" title=" " alt="" coords="5,5,219,177"/>
 </map>
