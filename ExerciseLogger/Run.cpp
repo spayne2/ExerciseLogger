@@ -1,5 +1,7 @@
 #include "Run.h"
-
+/**
+*Caclulates the average pace
+*/
 string Run::calculateAvgPace()
 {
 	int fullSeconds = (timeMins * 60) + timeSeconds;

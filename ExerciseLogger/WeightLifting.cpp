@@ -1,10 +1,14 @@
 #include "WeightLifting.h"
-
+/**
+*Function to calculate the total weight for the set.
+*/
 int Weightlifting::calculateTotalWeight() //cumalative total weight
 {
 	return weight * (reps * sets);
 }
-
+/**
+*function to ask user to add data to weightlifting, called from wherever a new weightlifting object is created
+*/
 void Weightlifting::addData()
 {
 	cout << "Type in weight in KG's" << endl;

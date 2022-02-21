@@ -25,5 +25,6 @@ public:
 	virtual void display() = 0;
 	virtual string getDataForFile() = 0;
 	virtual void addData() = 0;
+	virtual void loadDataFromFile(ifstream& ) = 0;
 };
 

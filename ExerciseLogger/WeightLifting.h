@@ -19,7 +19,7 @@ public:
 	*/
 	Weightlifting() { weight = 0; reps = 0; sets = 0; type = ""; }; //default constructor
 	/**
-	*function to ask user to add data to weightlifting, called from wherever a new run object is created
+	*function to ask user to add data to weightlifting, called from wherever a new weightlifting object is created
 	*/
 	void addData();
 	/**
