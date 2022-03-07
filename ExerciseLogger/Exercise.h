@@ -13,7 +13,8 @@ enum ExerciseType
 	RUN,
 	WEIGHT_LIFTING,
 	HIKE,
-	SWIMMING
+	SWIMMING,
+	YOGA
 };
 
 /**

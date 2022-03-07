@@ -3,6 +3,7 @@
 #include "WeightLifting.h"
 #include "Swimming.h"
 #include "Hike.h"
+#include "Yoga.h"
 class Person
 {
 private:
