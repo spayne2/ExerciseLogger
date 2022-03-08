@@ -147,6 +147,7 @@
     <ClCompile Include="Run.cpp" />
     <ClCompile Include="Swimming.cpp" />
     <ClCompile Include="WeightLifting.cpp" />
+    <ClCompile Include="Yoga.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exercise.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Run.h" />
     <ClInclude Include="Swimming.h" />
     <ClInclude Include="WeightLifting.h" />
+    <ClInclude Include="Yoga.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

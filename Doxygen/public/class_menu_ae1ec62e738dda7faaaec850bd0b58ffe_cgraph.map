@@ -2,19 +2,21 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,165,104,195"/>
 <area shape="rect" id="node2" href="$class_menu.html#a70673c67e9c671ec8930868f90467760" title=" " alt="" coords="152,5,339,35"/>
 <area shape="rect" id="node4" href="$class_menu.html#aa7ebe69aba410a13a88ccde79a5c7f3f" title=" " alt="" coords="157,165,333,195"/>
-<area shape="rect" id="node10" href="$class_menu.html#ab24a09633db8d1be3bcd84adf059f0d6" title=" " alt="" coords="173,59,317,88"/>
-<area shape="rect" id="node11" href="$class_menu.html#af9f654347310d43ee1cb2ddbefbee9df" title=" " alt="" coords="165,219,326,248"/>
-<area shape="rect" id="node16" href="$class_menu.html#a5a974ab9c87b95a19770f94b3eb5066f" title=" " alt="" coords="167,272,324,301"/>
-<area shape="rect" id="node17" href="$class_menu.html#a2298302836fd3658f43d74d1bc6b9a29" title=" " alt="" coords="417,297,563,327"/>
-<area shape="rect" id="node18" href="$class_menu.html#a8196e617d71a059fc968f522eed4c4ca" title=" " alt="" coords="168,112,323,141"/>
+<area shape="rect" id="node11" href="$class_menu.html#ab24a09633db8d1be3bcd84adf059f0d6" title=" " alt="" coords="173,59,317,88"/>
+<area shape="rect" id="node12" href="$class_menu.html#af9f654347310d43ee1cb2ddbefbee9df" title=" " alt="" coords="165,219,326,248"/>
+<area shape="rect" id="node18" href="$class_menu.html#a5a974ab9c87b95a19770f94b3eb5066f" title=" " alt="" coords="167,272,324,301"/>
+<area shape="rect" id="node19" href="$class_menu.html#a2298302836fd3658f43d74d1bc6b9a29" title=" " alt="" coords="417,297,563,327"/>
+<area shape="rect" id="node20" href="$class_menu.html#a8196e617d71a059fc968f522eed4c4ca" title=" " alt="" coords="168,112,323,141"/>
 <area shape="rect" id="node3" href="$class_menu.html#abd3f594403e9f8acc62d5b3f2e394ddc" title=" " alt="" coords="393,59,587,88"/>
 <area shape="rect" id="node5" href="$class_person.html#ac2d03633c439fe91ee1b00b28dda0f34" title=" " alt="" coords="419,139,561,168"/>
 <area shape="rect" id="node6" href="$class_person.html#a26a9c92ced3166b11140e0bda83b1eb3" title=" " alt="" coords="679,112,847,141"/>
-<area shape="rect" id="node7" href="$class_run.html#aeda5a32098dffc91e53ee8941dc109f3" title=" " alt="" coords="961,59,1079,88"/>
-<area shape="rect" id="node8" href="$class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" title=" " alt="" coords="938,112,1102,141"/>
-<area shape="rect" id="node9" href="$class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" title=" " alt="" coords="932,165,1108,195"/>
-<area shape="rect" id="node12" href="$class_person.html#ad4703ef7c3ce2ed4ff7fbfb26ead614d" title=" " alt="" coords="387,219,593,248"/>
-<area shape="rect" id="node13" href="$class_run.html#a3d526b27092ac87ccc7566846c87d311" title=" " alt="" coords="671,165,855,195"/>
-<area shape="rect" id="node14" href="$class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" title=" " alt="" coords="647,219,878,248"/>
-<area shape="rect" id="node15" href="$class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" title=" " alt="" coords="641,272,884,301"/>
+<area shape="rect" id="node7" href="$class_run.html#aeda5a32098dffc91e53ee8941dc109f3" title=" " alt="" coords="961,32,1079,61"/>
+<area shape="rect" id="node8" href="$class_swimming.html#ac0790d61cd6663f894e3aae8da15fd2d" title=" " alt="" coords="938,85,1102,115"/>
+<area shape="rect" id="node9" href="$class_weightlifting.html#a8800d964a57bbbb5ae1a2c6ca613f322" title=" " alt="" coords="932,139,1108,168"/>
+<area shape="rect" id="node10" href="$class_yoga.html#a6d45e2b9163ebc99a1a8cba100d8c00b" title=" " alt="" coords="957,192,1083,221"/>
+<area shape="rect" id="node13" href="$class_person.html#ad4703ef7c3ce2ed4ff7fbfb26ead614d" title=" " alt="" coords="387,219,593,248"/>
+<area shape="rect" id="node14" href="$class_yoga.html#a97aaa961fd71deb8450b2b6acdd6de94" title=" " alt="" coords="666,165,859,195"/>
+<area shape="rect" id="node15" href="$class_run.html#a3d526b27092ac87ccc7566846c87d311" title=" " alt="" coords="671,219,855,248"/>
+<area shape="rect" id="node16" href="$class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" title=" " alt="" coords="647,272,878,301"/>
+<area shape="rect" id="node17" href="$class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" title=" " alt="" coords="641,325,884,355"/>
 </map>

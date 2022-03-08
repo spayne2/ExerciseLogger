@@ -10,6 +10,7 @@ void Person::addExercise()
 	cout << "2. Weight Lifting" << endl;
 	cout << "3. Hike" << endl;
 	cout << "4. Swim" << endl;
+	cout << "5. Yoga" << endl;
 	int userInput;
 	cin >> userInput;
 	if (userInput == 1)
@@ -39,6 +40,13 @@ void Person::addExercise()
 		Swimming* swim = new Swimming; //initiliase
 		swim->addData(); //add data
 		exercises.push_back(swim); //add to the vector
+	}
+	else if (userInput == 5)
+	{
+		cout << "Add info of most recent Yoga session" << endl;
+		Yoga* yoga = new Yoga; //initiliase
+		yoga->addData(); //add data
+		exercises.push_back(yoga); //add to the vector
 	}
 
 }
@@ -156,6 +164,13 @@ void Person::loadDataFromFile(ifstream& file)
 			Swimming* swim = new Swimming;
 			swim->loadDataFromFile(file); //call the load data from file for run
 			exercises.push_back(swim); //add the run to the vector
+			break;
+		}
+		case ExerciseType::YOGA:
+		{
+			Yoga* yoga = new Yoga;
+			yoga->loadDataFromFile(file); //call the load data from file for run
+			exercises.push_back(yoga); //add the run to the vector
 			break;
 		}
 

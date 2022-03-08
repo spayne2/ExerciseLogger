@@ -1,12 +1,13 @@
 <map id="ExerciseLogger/Person.h" name="ExerciseLogger/Person.h">
-<area shape="rect" id="node1" title=" " alt="" coords="20,5,219,35"/>
-<area shape="rect" id="node2" href="$_run_8h.html" title=" " alt="" coords="29,160,90,189"/>
-<area shape="rect" id="node8" href="$_weight_lifting_8h.html" title=" " alt="" coords="117,83,242,112"/>
-<area shape="rect" id="node9" href="$_swimming_8h.html" title=" " alt="" coords="221,160,327,189"/>
-<area shape="rect" id="node10" href="$_hike_8h.html" title=" " alt="" coords="26,83,93,112"/>
-<area shape="rect" id="node3" href="$_exercise_8h.html" title=" " alt="" coords="132,237,227,267"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,315,65,344"/>
-<area shape="rect" id="node5" title=" " alt="" coords="90,315,173,344"/>
-<area shape="rect" id="node6" title=" " alt="" coords="197,315,261,344"/>
-<area shape="rect" id="node7" title=" " alt="" coords="285,315,359,344"/>
+<area shape="rect" id="node1" title=" " alt="" coords="77,5,276,35"/>
+<area shape="rect" id="node2" href="$_run_8h.html" title=" " alt="" coords="26,160,87,189"/>
+<area shape="rect" id="node8" href="$_weight_lifting_8h.html" title=" " alt="" coords="114,83,239,112"/>
+<area shape="rect" id="node9" href="$_swimming_8h.html" title=" " alt="" coords="187,160,294,189"/>
+<area shape="rect" id="node10" href="$_hike_8h.html" title=" " alt="" coords="23,83,90,112"/>
+<area shape="rect" id="node11" href="$_yoga_8h.html" title=" " alt="" coords="318,160,389,189"/>
+<area shape="rect" id="node3" href="$_exercise_8h.html" title=" " alt="" coords="148,237,242,267"/>
+<area shape="rect" id="node4" title=" " alt="" coords="21,315,81,344"/>
+<area shape="rect" id="node5" title=" " alt="" coords="106,315,188,344"/>
+<area shape="rect" id="node6" title=" " alt="" coords="212,315,276,344"/>
+<area shape="rect" id="node7" title=" " alt="" coords="300,315,375,344"/>
 </map>

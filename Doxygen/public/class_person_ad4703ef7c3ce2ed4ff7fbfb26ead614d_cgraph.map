@@ -1,6 +1,7 @@
 <map id="Person::loadDataFromFile" name="Person::loadDataFromFile">
-<area shape="rect" id="node1" title=" " alt="" coords="5,59,212,88"/>
-<area shape="rect" id="node2" href="$class_run.html#a3d526b27092ac87ccc7566846c87d311" title=" " alt="" coords="289,5,473,35"/>
-<area shape="rect" id="node3" href="$class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" title=" " alt="" coords="266,59,497,88"/>
-<area shape="rect" id="node4" href="$class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" title=" " alt="" coords="260,112,503,141"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,85,212,115"/>
+<area shape="rect" id="node2" href="$class_yoga.html#a97aaa961fd71deb8450b2b6acdd6de94" title=" " alt="" coords="285,5,478,35"/>
+<area shape="rect" id="node3" href="$class_run.html#a3d526b27092ac87ccc7566846c87d311" title=" " alt="" coords="289,59,473,88"/>
+<area shape="rect" id="node4" href="$class_swimming.html#ae7c9886f5ea1443dc0e7572f19fd03a9" title=" " alt="" coords="266,112,497,141"/>
+<area shape="rect" id="node5" href="$class_weightlifting.html#a68980175f7047fba24f9e4621b6b2df4" title=" " alt="" coords="260,165,503,195"/>
 </map>

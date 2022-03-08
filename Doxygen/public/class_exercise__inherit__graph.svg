@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 504;
+var viewWidth = 668;
 var viewHeight = 480;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,22 +54,22 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>Exercise</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-476 499.5,-476 499.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-476 663.5,-476 663.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="170.5,-343.5 170.5,-471.5 330.5,-471.5 330.5,-343.5 170.5,-343.5"/>
-<text text-anchor="middle" x="250.5" y="-457.9" font-family="Helvetica,sans-Serif" font-size="12.00">Exercise</text>
-<polyline fill="none" stroke="black" points="170.5,-450.5 330.5,-450.5 "/>
-<text text-anchor="middle" x="250.5" y="-436.9" font-family="Helvetica,sans-Serif" font-size="12.00"> </text>
-<polyline fill="none" stroke="black" points="170.5,-429.5 330.5,-429.5 "/>
-<text text-anchor="start" x="178.5" y="-415.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void display()=0</text>
-<text text-anchor="start" x="178.5" y="-402.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual string getDataFor</text>
-<text text-anchor="start" x="178.5" y="-389.9" font-family="Helvetica,sans-Serif" font-size="12.00">File()=0</text>
-<text text-anchor="start" x="178.5" y="-376.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void addData()=0</text>
-<text text-anchor="start" x="178.5" y="-363.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void loadDataFrom</text>
-<text text-anchor="start" x="178.5" y="-350.9" font-family="Helvetica,sans-Serif" font-size="12.00">File(ifstream &amp;)=0</text>
+<polygon fill="#bfbfbf" stroke="black" points="254.5,-343.5 254.5,-471.5 414.5,-471.5 414.5,-343.5 254.5,-343.5"/>
+<text text-anchor="middle" x="334.5" y="-457.9" font-family="Helvetica,sans-Serif" font-size="12.00">Exercise</text>
+<polyline fill="none" stroke="black" points="254.5,-450.5 414.5,-450.5 "/>
+<text text-anchor="middle" x="334.5" y="-436.9" font-family="Helvetica,sans-Serif" font-size="12.00"> </text>
+<polyline fill="none" stroke="black" points="254.5,-429.5 414.5,-429.5 "/>
+<text text-anchor="start" x="262.5" y="-415.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void display()=0</text>
+<text text-anchor="start" x="262.5" y="-402.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual string getDataFor</text>
+<text text-anchor="start" x="262.5" y="-389.9" font-family="Helvetica,sans-Serif" font-size="12.00">File()=0</text>
+<text text-anchor="start" x="262.5" y="-376.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void addData()=0</text>
+<text text-anchor="start" x="262.5" y="-363.9" font-family="Helvetica,sans-Serif" font-size="12.00">+ virtual void loadDataFrom</text>
+<text text-anchor="start" x="262.5" y="-350.9" font-family="Helvetica,sans-Serif" font-size="12.00">File(ifstream &amp;)=0</text>
 </a>
 </g>
 </g>
@@ -98,8 +98,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M186.56,-335.83C177.61,-325.94 168.34,-315.69 159.15,-305.53"/>
-<polygon fill="none" stroke="midnightblue" points="184.02,-338.24 193.32,-343.3 189.21,-333.54 184.02,-338.24"/>
+<path fill="none" stroke="midnightblue" d="M245.53,-358.68C219.8,-343.41 192.27,-325.61 168.5,-307 165.39,-304.57 162.28,-302.04 159.19,-299.43"/>
+<polygon fill="none" stroke="midnightblue" points="243.78,-361.71 254.18,-363.76 247.33,-355.67 243.78,-361.71"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -125,8 +125,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M250.5,-333.09C250.5,-322.29 250.5,-311.1 250.5,-300.13"/>
-<polygon fill="none" stroke="midnightblue" points="247,-333.3 250.5,-343.3 254,-333.3 247,-333.3"/>
+<path fill="none" stroke="midnightblue" d="M302.32,-334.09C297.38,-322.98 292.25,-311.44 287.22,-300.13"/>
+<polygon fill="none" stroke="midnightblue" points="299.15,-335.59 306.41,-343.3 305.55,-332.74 299.15,-335.59"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -153,8 +153,33 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M313.56,-335.56C322.66,-325.32 332.11,-314.68 341.45,-304.18"/>
-<polygon fill="none" stroke="midnightblue" points="310.7,-333.5 306.68,-343.3 315.93,-338.15 310.7,-333.5"/>
+<path fill="none" stroke="midnightblue" d="M366.7,-334.04C370.7,-325.04 374.83,-315.76 378.92,-306.55"/>
+<polygon fill="none" stroke="midnightblue" points="363.45,-332.74 362.59,-343.3 369.85,-335.59 363.45,-332.74"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="class_yoga.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="513.5,-146 513.5,-287 659.5,-287 659.5,-146 513.5,-146"/>
+<text text-anchor="middle" x="586.5" y="-273.4" font-family="Helvetica,sans-Serif" font-size="12.00">Yoga</text>
+<polyline fill="none" stroke="black" points="513.5,-266 659.5,-266 "/>
+<text text-anchor="start" x="521.5" y="-252.4" font-family="Helvetica,sans-Serif" font-size="12.00">&#45; int timeInMins</text>
+<text text-anchor="start" x="521.5" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00">&#45; int timeInSeconds</text>
+<text text-anchor="start" x="521.5" y="-226.4" font-family="Helvetica,sans-Serif" font-size="12.00">&#45; string complexity</text>
+<polyline fill="none" stroke="black" points="513.5,-219 659.5,-219 "/>
+<text text-anchor="start" x="521.5" y="-205.4" font-family="Helvetica,sans-Serif" font-size="12.00">+ void display()</text>
+<text text-anchor="start" x="521.5" y="-192.4" font-family="Helvetica,sans-Serif" font-size="12.00">+ string getDataForFile()</text>
+<text text-anchor="start" x="521.5" y="-179.4" font-family="Helvetica,sans-Serif" font-size="12.00">+ void addData()</text>
+<text text-anchor="start" x="521.5" y="-166.4" font-family="Helvetica,sans-Serif" font-size="12.00">+ void loadDataFromFile</text>
+<text text-anchor="start" x="521.5" y="-153.4" font-family="Helvetica,sans-Serif" font-size="12.00">(ifstream &amp;)</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M423.45,-361.13C450.59,-345.55 479.77,-326.97 504.5,-307 512.04,-300.91 519.52,-294.12 526.72,-287.07"/>
+<polygon fill="none" stroke="midnightblue" points="421.69,-358.1 414.72,-366.07 425.15,-364.19 421.69,-358.1"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
