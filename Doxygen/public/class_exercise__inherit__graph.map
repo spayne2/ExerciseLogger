@@ -1,7 +1,8 @@
 <map id="Exercise" name="Exercise">
-<area shape="rect" id="node1" title=" " alt="" coords="239,5,440,143"/>
-<area shape="rect" id="node2" href="$class_run.html" title=" " alt="" coords="5,191,217,432"/>
-<area shape="rect" id="node4" href="$class_swimming.html" title=" " alt="" coords="242,199,437,423"/>
-<area shape="rect" id="node5" href="$class_weightlifting.html" title=" " alt="" coords="461,191,666,432"/>
-<area shape="rect" id="node3" href="$class_hike.html" title=" " alt="" coords="15,480,208,600"/>
+<area shape="rect" id="node1" title=" " alt="" coords="345,5,558,177"/>
+<area shape="rect" id="node2" href="$class_run.html" title=" " alt="" coords="5,225,217,467"/>
+<area shape="rect" id="node4" href="$class_swimming.html" title=" " alt="" coords="242,234,437,458"/>
+<area shape="rect" id="node5" href="$class_weightlifting.html" title=" " alt="" coords="461,225,666,467"/>
+<area shape="rect" id="node6" href="$class_yoga.html" title=" " alt="" coords="690,251,885,441"/>
+<area shape="rect" id="node3" href="$class_hike.html" title=" " alt="" coords="15,515,208,635"/>
 </map>

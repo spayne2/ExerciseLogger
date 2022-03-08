@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['laps_0',['laps',['../class_swimming.html#ab066289fe7a5a5f0987bb302f064a6fc',1,'Swimming']]],
-  ['length_1',['length',['../class_swimming.html#a4224518f3099ad4b5527d56a52294024',1,'Swimming']]]
+  ['keepmenugoing_0',['keepMenuGoing',['../class_menu.html#a727aa5a4664d918f21a0dcb13d2b6b82',1,'Menu']]]
 ];

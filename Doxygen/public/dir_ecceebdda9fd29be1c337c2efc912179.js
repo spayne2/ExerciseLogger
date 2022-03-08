@@ -24,5 +24,9 @@ var dir_ecceebdda9fd29be1c337c2efc912179 =
     [ "WeightLifting.cpp", "_weight_lifting_8cpp.html", null ],
     [ "WeightLifting.h", "_weight_lifting_8h.html", [
       [ "Weightlifting", "class_weightlifting.html", "class_weightlifting" ]
+    ] ],
+    [ "Yoga.cpp", "_yoga_8cpp.html", null ],
+    [ "Yoga.h", "_yoga_8h.html", [
+      [ "Yoga", "class_yoga.html", "class_yoga" ]
     ] ]
 ];

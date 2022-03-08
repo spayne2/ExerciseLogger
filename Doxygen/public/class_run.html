@@ -95,12 +95,14 @@ $(document).ready(function(){initNavTree('class_run.html',''); initResizable(); 
 <div class="dynheader">
 Inheritance diagram for Run:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_run__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_run__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Run:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_run__coll__graph.svg" width="223" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_run__coll__graph.svg" width="224" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -121,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad95cb73a5a07b7e57adce3837d3f8e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72accd8918b75ae85a4d64c5a1ca4240"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_exercise.html#a72accd8918b75ae85a4d64c5a1ca4240">addData</a> ()=0</td></tr>
 <tr class="separator:a72accd8918b75ae85a4d64c5a1ca4240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c93cb04adc74a4a3a80c0332532f35d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_exercise.html#a4c93cb04adc74a4a3a80c0332532f35d">loadDataFromFile</a> (ifstream &amp;)=0</td></tr>
+<tr class="separator:a4c93cb04adc74a4a3a80c0332532f35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -205,19 +209,19 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="class_exercise.html#a72accd8918b75ae85a4d64c5a1ca4240">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00015">15</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   16</span>{ <span class="comment">//get data from user input</span></div>
-<div class="line"><span class="lineno">   17</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in distance&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   18</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>;</div>
-<div class="line"><span class="lineno">   19</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in minutes&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   20</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>;</div>
-<div class="line"><span class="lineno">   21</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in seconds&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   22</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>;</div>
-<div class="line"><span class="lineno">   23</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in terrain type&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   24</span>    cin.ignore(1000, <span class="charliteral">&#39;\n&#39;</span>);</div>
-<div class="line"><span class="lineno">   25</span>    cin.clear();</div>
-<div class="line"><span class="lineno">   26</span>    getline(cin, <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>);</div>
-<div class="line"><span class="lineno">   27</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00017">17</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   18</span>{ <span class="comment">//get data from user input</span></div>
+<div class="line"><span class="lineno">   19</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in distance&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   20</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>;</div>
+<div class="line"><span class="lineno">   21</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in minutes&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   22</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>;</div>
+<div class="line"><span class="lineno">   23</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in seconds&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   24</span>    cin &gt;&gt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>;</div>
+<div class="line"><span class="lineno">   25</span>    cout &lt;&lt; <span class="stringliteral">&quot;Type in terrain type&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   26</span>    cin.ignore(1000, <span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><span class="lineno">   27</span>    cin.clear();</div>
+<div class="line"><span class="lineno">   28</span>    getline(cin, <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>);</div>
+<div class="line"><span class="lineno">   29</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_run_8h_source.html#l00012">terrain</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
 
@@ -252,23 +256,24 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >function to caclculate the average pace of the run, to be called when the runs are displayed </p>
+<p >function to caclculate the average pace of the run, to be called when the runs are displayed</p>
+<p >Caclulates the average pace </p>
 
-<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00003">3</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    4</span>{</div>
-<div class="line"><span class="lineno">    5</span>    <span class="keywordtype">int</span> fullSeconds = (<a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a> * 60) + <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>;</div>
-<div class="line"><span class="lineno">    6</span> </div>
-<div class="line"><span class="lineno">    7</span>    <span class="keywordtype">int</span> secondsPerKm = fullSeconds / <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>;</div>
+<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00005">5</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <span class="keywordtype">int</span> fullSeconds = (<a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a> * 60) + <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>;</div>
 <div class="line"><span class="lineno">    8</span> </div>
-<div class="line"><span class="lineno">    9</span>    <span class="keywordtype">double</span> minutesPerKm = secondsPerKm / 60;</div>
-<div class="line"><span class="lineno">   10</span>    <span class="keywordtype">int</span> leftOverSeconds = secondsPerKm % 60;</div>
-<div class="line"><span class="lineno">   11</span> </div>
-<div class="line"><span class="lineno">   12</span>    <span class="keywordflow">return</span> to_string(minutesPerKm) + <span class="stringliteral">&quot;&#39;&quot;</span> + to_string(leftOverSeconds) + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
-<div class="line"><span class="lineno">   13</span>}</div>
+<div class="line"><span class="lineno">    9</span>    <span class="keywordtype">int</span> secondsPerKm = fullSeconds / <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>;</div>
+<div class="line"><span class="lineno">   10</span> </div>
+<div class="line"><span class="lineno">   11</span>    <span class="keywordtype">double</span> minutesPerKm = secondsPerKm / 60;</div>
+<div class="line"><span class="lineno">   12</span>    <span class="keywordtype">int</span> leftOverSeconds = secondsPerKm % 60;</div>
+<div class="line"><span class="lineno">   13</span> </div>
+<div class="line"><span class="lineno">   14</span>    <span class="keywordflow">return</span> to_string(minutesPerKm) + <span class="stringliteral">&quot;&#39;&quot;</span> + to_string(leftOverSeconds) + <span class="stringliteral">&quot;\&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   15</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hike_8cpp_source.html#l00010">Hike::display()</a>, and <a class="el" href="_run_8cpp_source.html#l00032">display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hike_8cpp_source.html#l00013">Hike::display()</a>, and <a class="el" href="_run_8cpp_source.html#l00034">display()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -303,13 +308,13 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="class_exercise.html#abd2e913a8a9218dbb4f6fcf0e18eb0a8">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00032">32</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
-<div class="line"><span class="lineno">   34</span>    cout &lt;&lt; <span class="stringliteral">&quot;Run: Disance: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a> &lt;&lt; <span class="stringliteral">&quot;Kms, Time &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a> &lt;&lt; <span class="stringliteral">&quot;mm:&quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a> &lt;&lt; <span class="stringliteral">&quot;ss, Pace: &quot;</span> &lt;&lt; <a class="code hl_function" href="class_run.html#a8feeed8d6411a2e8360967bf9860df45">calculateAvgPace</a>() &lt;&lt; <span class="stringliteral">&quot; Terain: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   35</span>}</div>
-<div class="ttc" id="aclass_run_html_a8feeed8d6411a2e8360967bf9860df45"><div class="ttname"><a href="class_run.html#a8feeed8d6411a2e8360967bf9860df45">Run::calculateAvgPace</a></div><div class="ttdeci">string calculateAvgPace()</div><div class="ttdef"><b>Definition:</b> <a href="_run_8cpp_source.html#l00003">Run.cpp:3</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00034">34</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    cout &lt;&lt; <span class="stringliteral">&quot;Run: Disance: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a> &lt;&lt; <span class="stringliteral">&quot;Kms, Time &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a> &lt;&lt; <span class="stringliteral">&quot;mm:&quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a> &lt;&lt; <span class="stringliteral">&quot;ss, Pace: &quot;</span> &lt;&lt; <a class="code hl_function" href="class_run.html#a8feeed8d6411a2e8360967bf9860df45">calculateAvgPace</a>() &lt;&lt; <span class="stringliteral">&quot; Terain: &quot;</span> &lt;&lt; <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aclass_run_html_a8feeed8d6411a2e8360967bf9860df45"><div class="ttname"><a href="class_run.html#a8feeed8d6411a2e8360967bf9860df45">Run::calculateAvgPace</a></div><div class="ttdeci">string calculateAvgPace()</div><div class="ttdef"><b>Definition:</b> <a href="_run_8cpp_source.html#l00005">Run.cpp:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_run_8cpp_source.html#l00003">calculateAvgPace()</a>, <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_run_8h_source.html#l00012">terrain</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
+<p class="reference">References <a class="el" href="_run_8cpp_source.html#l00005">calculateAvgPace()</a>, <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_run_8h_source.html#l00012">terrain</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -344,10 +349,10 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="class_exercise.html#ad95cb73a5a07b7e57adce3837d3f8e24">Exercise</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00039">39</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{               <span class="comment">//record is labelled with the enum</span></div>
-<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> to_string(<a class="code hl_enumvalue" href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea439c688a4e9ed31638d5922a50680a8e">ExerciseType::RUN</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>) + <span class="stringliteral">&quot; &quot;</span> + <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>;</div>
-<div class="line"><span class="lineno">   42</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00041">41</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{               <span class="comment">//record is labelled with the enum</span></div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">return</span> to_string(<a class="code hl_enumvalue" href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea439c688a4e9ed31638d5922a50680a8e">ExerciseType::RUN</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>) + <span class="stringliteral">&quot; &quot;</span> + to_string(<a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>) + <span class="stringliteral">&quot; &quot;</span> + <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>;</div>
+<div class="line"><span class="lineno">   44</span>}</div>
 <div class="ttc" id="a_exercise_8h_html_af1aa7cfdc8e091a94d56af2ac04d8e2ea439c688a4e9ed31638d5922a50680a8e"><div class="ttname"><a href="_exercise_8h.html#af1aa7cfdc8e091a94d56af2ac04d8e2ea439c688a4e9ed31638d5922a50680a8e">RUN</a></div><div class="ttdeci">@ RUN</div><div class="ttdef"><b>Definition:</b> <a href="_exercise_8h_source.html#l00013">Exercise.h:13</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_exercise_8h_source.html#l00013">RUN</a>, <a class="el" href="_run_8h_source.html#l00012">terrain</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
@@ -359,6 +364,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Run::loadDataFromFile </td>
@@ -368,20 +376,27 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p >loadDataFromFile reads the data from the text file. </p>
 
-<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00046">46</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
-<div class="line"><span class="lineno">   48</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>; <span class="comment">//get the distance from the file</span></div>
-<div class="line"><span class="lineno">   49</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>; <span class="comment">//get the minutes from the file</span></div>
-<div class="line"><span class="lineno">   50</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>; <span class="comment">//get the time in seconds from the file</span></div>
-<div class="line"><span class="lineno">   51</span>    getline(file, <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>); <span class="comment">//get the terrain (getline so it can have spaces)</span></div>
-<div class="line"><span class="lineno">   52</span>}</div>
+<p>Implements <a class="el" href="class_exercise.html#a4c93cb04adc74a4a3a80c0332532f35d">Exercise</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_run_8cpp_source.html#l00048">48</a> of file <a class="el" href="_run_8cpp_source.html">Run.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c">distanceInKm</a>; <span class="comment">//get the distance from the file</span></div>
+<div class="line"><span class="lineno">   51</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#a37cb1b8241612b50b53fde2d41d0218c">timeMins</a>; <span class="comment">//get the minutes from the file</span></div>
+<div class="line"><span class="lineno">   52</span>    file &gt;&gt; <a class="code hl_variable" href="class_run.html#a8e01eaa5d0a591334088e3992873df7e">timeSeconds</a>; <span class="comment">//get the time in seconds from the file</span></div>
+<div class="line"><span class="lineno">   53</span>    getline(file, <a class="code hl_variable" href="class_run.html#a0e042211bebb62cd987fe4822ac79efd">terrain</a>); <span class="comment">//get the terrain (getline so it can have spaces)</span></div>
+<div class="line"><span class="lineno">   54</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_run_8h_source.html#l00009">distanceInKm</a>, <a class="el" href="_run_8h_source.html#l00012">terrain</a>, <a class="el" href="_run_8h_source.html#l00010">timeMins</a>, and <a class="el" href="_run_8h_source.html#l00011">timeSeconds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_person_8cpp_source.html#l00116">Person::loadDataFromFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_person_8cpp_source.html#l00124">Person::loadDataFromFile()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -413,7 +428,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_run_8h_source.html#l00009">9</a> of file <a class="el" href="_run_8h_source.html">Run.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00015">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00003">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00010">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00032">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00002">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00039">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00046">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00017">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00005">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00013">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00034">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00005">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00041">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00048">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
 
 </div>
 </div>
@@ -439,7 +454,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_run_8h_source.html#l00012">12</a> of file <a class="el" href="_run_8h_source.html">Run.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00015">addData()</a>, <a class="el" href="_hike_8cpp_source.html#l00010">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00032">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00002">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00039">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00046">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00017">addData()</a>, <a class="el" href="_hike_8cpp_source.html#l00013">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00034">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00005">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00041">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00048">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
 
 </div>
 </div>
@@ -465,7 +480,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_run_8h_source.html#l00010">10</a> of file <a class="el" href="_run_8h_source.html">Run.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00015">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00003">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00010">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00032">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00002">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00039">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00046">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00017">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00005">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00013">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00034">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00005">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00041">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00048">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +506,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="_run_8h_source.html#l00011">11</a> of file <a class="el" href="_run_8h_source.html">Run.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00015">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00003">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00010">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00032">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00002">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00039">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00046">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_run_8cpp_source.html#l00017">addData()</a>, <a class="el" href="_run_8cpp_source.html#l00005">calculateAvgPace()</a>, <a class="el" href="_hike_8cpp_source.html#l00013">Hike::display()</a>, <a class="el" href="_run_8cpp_source.html#l00034">display()</a>, <a class="el" href="_hike_8cpp_source.html#l00005">Hike::getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00041">getDataForFile()</a>, <a class="el" href="_run_8cpp_source.html#l00048">loadDataFromFile()</a>, and <a class="el" href="_run_8h_source.html#l00022">Run()</a>.</p>
 
 </div>
 </div>

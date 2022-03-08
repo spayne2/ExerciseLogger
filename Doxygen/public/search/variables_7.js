@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['persons_0',['persons',['../class_menu.html#a1ebb081f75f0a6993025c4e83843024d',1,'Menu']]]
+  ['name_0',['name',['../class_person.html#a669b64897b4d823a27bb5866368d4dfa',1,'Person']]]
 ];

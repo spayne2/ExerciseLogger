@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['distanceinkm_0',['distanceInKm',['../class_run.html#adbe3041e1518a41ba170ea3dfa00cd0c',1,'Run']]]
+  ['complexity_0',['complexity',['../class_yoga.html#a0c0dbc2be2f18cb894cc8f2fb5d37c9b',1,'Yoga']]]
 ];

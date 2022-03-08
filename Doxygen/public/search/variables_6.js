@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_0',['name',['../class_person.html#a669b64897b4d823a27bb5866368d4dfa',1,'Person']]]
+  ['laps_0',['laps',['../class_swimming.html#ab066289fe7a5a5f0987bb302f064a6fc',1,'Swimming']]],
+  ['length_1',['length',['../class_swimming.html#a4224518f3099ad4b5527d56a52294024',1,'Swimming']]]
 ];

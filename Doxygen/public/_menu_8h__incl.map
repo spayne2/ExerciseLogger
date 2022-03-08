@@ -1,13 +1,14 @@
 <map id="ExerciseLogger/Menu.h" name="ExerciseLogger/Menu.h">
-<area shape="rect" id="node1" title=" " alt="" coords="26,5,213,35"/>
-<area shape="rect" id="node2" href="$_person_8h.html" title=" " alt="" coords="77,83,161,112"/>
-<area shape="rect" id="node3" href="$_run_8h.html" title=" " alt="" coords="29,237,90,267"/>
-<area shape="rect" id="node9" href="$_weight_lifting_8h.html" title=" " alt="" coords="117,160,242,189"/>
-<area shape="rect" id="node10" href="$_swimming_8h.html" title=" " alt="" coords="221,237,327,267"/>
-<area shape="rect" id="node11" href="$_hike_8h.html" title=" " alt="" coords="26,160,93,189"/>
-<area shape="rect" id="node4" href="$_exercise_8h.html" title=" " alt="" coords="132,315,227,344"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,392,65,421"/>
-<area shape="rect" id="node6" title=" " alt="" coords="90,392,173,421"/>
-<area shape="rect" id="node7" title=" " alt="" coords="197,392,261,421"/>
-<area shape="rect" id="node8" title=" " alt="" coords="285,392,359,421"/>
+<area shape="rect" id="node1" title=" " alt="" coords="83,5,270,35"/>
+<area shape="rect" id="node2" href="$_person_8h.html" title=" " alt="" coords="134,83,218,112"/>
+<area shape="rect" id="node3" href="$_run_8h.html" title=" " alt="" coords="26,237,87,267"/>
+<area shape="rect" id="node9" href="$_weight_lifting_8h.html" title=" " alt="" coords="114,160,239,189"/>
+<area shape="rect" id="node10" href="$_swimming_8h.html" title=" " alt="" coords="187,237,294,267"/>
+<area shape="rect" id="node11" href="$_hike_8h.html" title=" " alt="" coords="23,160,90,189"/>
+<area shape="rect" id="node12" href="$_yoga_8h.html" title=" " alt="" coords="318,237,389,267"/>
+<area shape="rect" id="node4" href="$_exercise_8h.html" title=" " alt="" coords="148,315,242,344"/>
+<area shape="rect" id="node5" title=" " alt="" coords="21,392,81,421"/>
+<area shape="rect" id="node6" title=" " alt="" coords="106,392,188,421"/>
+<area shape="rect" id="node7" title=" " alt="" coords="212,392,276,421"/>
+<area shape="rect" id="node8" title=" " alt="" coords="300,392,375,421"/>
 </map>
